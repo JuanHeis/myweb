@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +14,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
-    
+
     <link rel="stylesheet" href="./css/style-500.css">
     <title>Juan Heis</title>
 </head>
@@ -25,10 +29,38 @@
     <button class="button--large">Button</button> -->
 
     <header>
-            <h4>
-                Juan | Heis
-            </h4>
-            <nav>
+        <h4>
+            Juan | Heis
+        </h4>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">
+                        home
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        proyectos
+                    </a>
+                </li>
+                <li>
+                    <a href="#testi">
+                        Testimonios
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <span>
+            <div class="header__menu-icon"></div>
+            <input type="checkbox" class="header__menu-icon--interact" src="./img/icon-menu.svg">
+            <div class="hamburguer">
                 <ul>
                     <li>
                         <a href="#home">
@@ -51,61 +83,35 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
-           
-            <span>
-                <div class="header__menu-icon"></div>
-                <input type="checkbox" class="header__menu-icon--interact" src="./img/icon-menu.svg" >
-                <div class="hamburguer">
-                    <ul>
-                        <li>
-                            <a href="#home">
-                                home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#projects">
-                                proyectos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#testi">
-                                Testimonios
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact">
-                                contacto
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </span>
-     
+            </div>
+        </span>
+
     </header>
 
     <main>
         <div class="hero-container">
             <div class="wrapper">
 
-            <section class="hero" id="home">
-                <h1>
-                    Hola! soy Juan Heis. <br> FrontEnd Dev, CSS & cat lover. Le doy órdenes a la compu 
-                </h1>
-                <p>
-                    Nacido en el 98, Argentina, Internet, mi hogar. La tecnología siempre me encantó y hoy puedo vivir de ello. Me gusta construir con código herramientas de calidad que faciliten la vida de otras personas. Enseñar codigo para 
-                    que otros mejoren su vida. Mis creaciones estan echas principalmente en Javascript, HTML y CSS
-                </p>
-                <div>
-                    <!-- <button class="button--primary">
+                <section class="hero" id="home">
+                    <h1>
+                        Hola! soy Juan Heis. <br> FrontEnd Dev, CSS & cat lover. Le doy órdenes a la compu
+                    </h1>
+                    <p>
+                        Nacido en el 98, Argentina, Internet, mi hogar. La tecnología siempre me encantó y hoy puedo
+                        vivir de ello. Me gusta construir con código herramientas de calidad que faciliten la vida de
+                        otras personas. Enseñar codigo para
+                        que otros mejoren su vida. Mis creaciones estan echas principalmente en Javascript, HTML y CSS
+                    </p>
+                    <div>
+                        <!-- <button class="button--primary">
                         Descargar currículum
                     </button> -->
-                </div>
-            </section>
+                    </div>
+                </section>
+            </div>
         </div>
-        </div>
-        
-            <div class="wrapper">
+
+        <div class="wrapper">
             <section id="projects" class="proyects">
                 <h2>
                     Proyectos que realice
@@ -114,11 +120,14 @@
                 <div class="project">
                     <img src="./img/Thumbnail-Marvol.jpg" alt="thumbnail marvol">
                     <p class="project__tittle">Marvol</p>
-                    <p class="project__description">Basado en la web de marvel. Tecnologias usadas html y css. <a target="_blank" href="https://leonidasesteban.com/proyectos">Fuente</a>
+                    <p class="project__description">Basado en la web de marvel. Tecnologias usadas html y css. <a
+                            target="_blank" href="https://leonidasesteban.com/proyectos">Fuente</a>
                     </p>
                     <div class="project__button-container">
-                        <a target="_blank" href="https://github.com/JuanHeis/marvol"><button class="button--secondary">Ver código del proyecto</button></a>
-                        <a target="_blank" href="https://juanheis.github.io/marvol/"> <button class="button--primary">Ver detalle del proyecto</button></a>
+                        <a target="_blank" href="https://github.com/JuanHeis/marvol"><button
+                                class="button--secondary">Ver código del proyecto</button></a>
+                        <a target="_blank" href="https://juanheis.github.io/marvol/"> <button
+                                class="button--primary">Ver detalle del proyecto</button></a>
                     </div>
                 </div>
 
@@ -126,11 +135,14 @@
                 <div class="project">
                     <img src="./img/Thumbnail-Sector.jpg" alt="thumbnail sector">
                     <p class="project__tittle">Sector</p>
-                    <p class="project__description">Web de empresa de patines ficticia, sector. Tecnologias usadas html y css. <a target="_blank" href="https://leonidasesteban.com/proyectos">Fuente</a>
+                    <p class="project__description">Web de empresa de patines ficticia, sector. Tecnologias usadas html
+                        y css. <a target="_blank" href="https://leonidasesteban.com/proyectos">Fuente</a>
                     </p>
                     <div>
-                       <a target="_blank" href="https://github.com/JuanHeis/sector"><button class="button--secondary">Ver código del proyecto</button></a>
-                       <a target="_blank" href="https://juanheis.github.io/sector/"><button class="button--primary">Ver detalle del proyecto</button></a>
+                        <a target="_blank" href="https://github.com/JuanHeis/sector"><button
+                                class="button--secondary">Ver código del proyecto</button></a>
+                        <a target="_blank" href="https://juanheis.github.io/sector/"><button class="button--primary">Ver
+                                detalle del proyecto</button></a>
                     </div>
                 </div>
 
@@ -139,11 +151,14 @@
                     <img src="./img/Thumbnail-elisa.jpg" alt="thumbnail Elisa">
                     <p class="project__tittle">Elisa</p>
                     <p class="project__description">
-                        Portafolio de la dev Elisa. Tecnologias usadas html y css. <a target="_blank" href="https://leonidasesteban.com/proyectos">Fuente</a>
+                        Portafolio de la dev Elisa. Tecnologias usadas html y css. <a target="_blank"
+                            href="https://leonidasesteban.com/proyectos">Fuente</a>
                     </p>
                     <div>
-                        <a target="_blank" href="https://github.com/JuanHeis/portafolio-elisa"> <button class="button--secondary">Ver código del proyecto</button></a>
-                       <a target="_blank" href="https://juanheis.github.io/portafolio-elisa/"> <button class="button--primary">Ver detalle del proyecto</button></a>
+                        <a target="_blank" href="https://github.com/JuanHeis/portafolio-elisa"> <button
+                                class="button--secondary">Ver código del proyecto</button></a>
+                        <a target="_blank" href="https://juanheis.github.io/portafolio-elisa/"> <button
+                                class="button--primary">Ver detalle del proyecto</button></a>
                     </div>
                 </div>
 
@@ -179,7 +194,7 @@
                 ¿Quieres trabajar conmigo o simplemente decirme algo? - ¡Hazme ping!
             </h2>
             <a class="mail" target="_blank" href="mailto:juaany98@gmail.com">juaany98@gmail.com</a>
-    
+
             <div class="contact-left">
                 <p>
                     Redes sociales
