@@ -391,7 +391,7 @@ footer ul li a{
         transition-duration: 0.3s;
     }
     .manchi img:hover{
-        bottom: -140px;
+        bottom: -175px;
     }
 }
 @media (min-width: 900px) {
