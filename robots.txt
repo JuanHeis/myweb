@@ -1,14 +1,19 @@
 User-agent: Googlebot
 Allow: /
+Disallow: /photos
 
 User-agent: Bingbot
 Allow: /
+Disallow: /photos
 
 User-agent: Twitterbot
 Allow: /
+Disallow: /photos
 
 User-agent: facebookexternalhit
 Allow: /
+Disallow: /photos
 
 User-agent: *
 Allow: /
+Disallow: /photos
